@@ -11,7 +11,7 @@ import numpy as np
 max_pulse = []
 velocity  = []
 for j in range(1):
-   name = '_thetapi4'
+   name = '_thetapi2'
    data      = pd.read_csv(r'D:\python 代码\CoilSim\CoilSimulation_For_Charged_Or_Magnetic_Moment_Particles\Coil_Simulation\radius=020m\data\MMP_data'+name)
    #print(data)
    parameter = pd.read_csv(r'D:\python 代码\CoilSim\CoilSimulation_For_Charged_Or_Magnetic_Moment_Particles\Coil_Simulation\radius=020m\data\MMP_parameter'+name)
